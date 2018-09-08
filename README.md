@@ -1,5 +1,5 @@
 # PythonKeylogger
-This tool is a python keylogger for Windows, Mac OS and Linux OSs called Tanit named the Phoenician chief goddess of Carthage. 
+Tanit Keylogger is a python keylogger for Windows, Mac OS and Linux OSs called Tanit named the Phoenician chief goddess of Carthage. 
 **The tool is an Ethical Hacker Educational tool ONLY  (please see disclaimer and code of conduct). 
 
 It is part of a series of Ethical Hacking tools I will publish on Github:
@@ -87,7 +87,17 @@ installed in ~/.wine/drive_c/Python27/ and in there all the cool stuff like Pyth
 cd ~/.wine/drive_c/Python27/
 wine python.exe -m pip install pyinstaller
 ```
-You will finde the pyinstalller.exe in the scripts directory.
+You will find the pyinstalller.exe in the Scripts directory.
+To install pynput (why? you need to do that as even this module is installed on Linux OS, the Windows Python interpreter needs this)
+```
+wine python.exe -m pip install pynput
+```
+
+You can then package Tanit Keylogger into a single executable:
+
+```
+wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe main.py --onefile --noconsole
+```
 
 # License
 This program is licensed under GNU GPL v3 License - you are free to distribute, change, enhance and include any of the code of this application in your tools. I only expect adequate attribution of this work. The attribution should include the title of the program, the author and the site or the document where the program is taken from.
