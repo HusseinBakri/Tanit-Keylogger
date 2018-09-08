@@ -1,6 +1,6 @@
 # PythonKeylogger
 This tool is a python keylogger for Windows, Mac OS and Linux OSs called Tanit named the Phoenician chief goddess of Carthage. 
-**The tool is an Ethical Hacker Educational tool ONLY **  (please see disclaimer and code of conduct). 
+**The tool is an Ethical Hacker Educational tool ONLY  (please see disclaimer and code of conduct). 
 
 It is part of a series of Ethical Hacking tools I will publish on Github:
 1. Adonis ARP Spoofer (Language Python), repository URL (will be added later).
@@ -67,11 +67,14 @@ result = subprocess.check_output(command, shell=True)
 You need to handle the stderr and stdin by throwing them in the Abyss
 
 ### For Python 3
+```
 result = subprocess.check_output(command, shell=True, stderr=subprocess.DEVNULL, stdin=subprocess.DEVNULL )
-
+```
 ### For Python 2 (you need to import the os module)
+```
 DEVNULL = open(os.devnull, 'wb')
 result = subprocess.check_output(command, shell=True, stderr=DEVNULL, stdin=DEVNULL )
+```
 
 ## Create a Windows .exe of a python project from Linux OS
 As you know to run a Windows .exe or .msi or anything similar on a Linux OS you need a lovely program called wine (https://www.winehq.org/). I would assume you have installed wine. Go to the official Python Website and download a Python 2.7.x msi installation files. Navigate on your Linux to the directory of the download directory and then run the following command: (/i is for installing):
