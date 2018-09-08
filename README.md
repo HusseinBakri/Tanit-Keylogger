@@ -115,13 +115,14 @@ Changing the icon and spoofing the extension of the file. I will write a guide o
 
 ## Avoiding antiviruses
 I have to mention the fact that the mere act of writing your own Hacking/Security programs with your own way of coding makes these programs unique in a way and thus undetectable and you will know why when I explain the main techniques used by antiviruses. Source Codes and by consequence executable binaries generated out of them, are always detected when they are either too traditional or have been used by many people. Per instance, the code here has great parts from many sources (a salad of code) and that is intentional actually.
+
 Now the tricks here are really a race with time for different reasons:
 - 1st technique: Anti-viruses compares your program to a huge database of signatures of other malware. By huge I mean massive. In lay terms, huge number of signatures (i.e. snippets of logic if you want) sort of database of malware logic.
-- 2nd technique: This technique is used in tandem with the first and works as a safe guard if signature is not found. It compares the behaviour of your program in real-time using a sandbox or virtual environment. The comparision involves sometimes some clever machine and deep learning algorithms. Now of course every antivirus give this technique some sort of a brand and fancy name but it boils down to the same concepts. The techniques are numerous, the antivisus try to figure out if  your program is opening supeciously a port or downloading things or taking snapshots or capturing keystrokes, connecting to remote hosts vel cetera...
+- 2nd technique: This technique is used in tandem with the first and works as a safe guard if signature is not found. It compares the behaviour of your program in real-time using a sandbox or virtual environment. The comparision involves sometimes some clever machine and deep learning algorithms. Now of course every antivirus give this technique some sort of a brand and fancy name but it boils down to the same concepts. The techniques are numerous, the antivisus try to figure out if  your program is opening suspiciously a network port or downloading things or taking snapshots or capturing keystrokes, or connecting to a remote host vel cetera...
 
-You sould be worried about the second point not the first one becuase you have literally a trillion methods to make your program quite unique to fool an antivirus to think it is harmless and thus no signature would be matched. That does not mean the second technique could not be defeated.
+You sould be worried about the second point not the first one becuase you have literally at your disposable a trillion methods to make your program quite unique to fool an antivirus to think it is harmless and thus no signature would be matched in this way. That does not mean the second technique could not be defeated.
 
-Some Source Code tricks (the following is a big field and art in itself):
+Some Source Code tricks (the following is a big field and art in itself so this is just a drop from the ocean):
 1. Add useless code before, in-between (if possible) and after the malicious code. Add a lot of padding logic (useless loops, useless mathematical operations etc...)
 2. Play with sleep patterns of your Python scripts (pausing the program and resuming it, then pausing and resuming)
 3. Play with program threading like spawning threads especially useless ones per example some weird mathematical equation calculation is in a seperate thread (I found this achieves amazing results)
