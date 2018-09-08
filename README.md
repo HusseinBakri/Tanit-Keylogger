@@ -1,7 +1,7 @@
 # PythonKeylogger
-Tanit Keylogger is a python keylogger for Windows, Mac OS and Linux OSs called Tanit named the Phoenician chief goddess of Carthage. 
+Tanit Keylogger is a simple but powerfull python keylogger for MS Windows, Mac OS and Linux OSs. The tool is named after the Phoenician chief goddess of Carthage. 
 
-The tool is an Ethical Hacker Educational tool ONLY  (please see disclaimer and code of conduct). 
+The tool is an Ethical Hacker Educational tool ONLY  (please code of conduct). 
 
 It is part of a series of Ethical Hacking tools I will publish on Github:
 1. Adonis ARP Spoofer (Language Python), repository URL (will be added later).
@@ -16,10 +16,10 @@ It is part of a series of Ethical Hacking tools I will publish on Github:
 
 
 # Code of Conduct
-**I wrote this tool as an agglomeration of my knowledge after taking several Ethical Hacking courses. This tool is for educational purposes only and is not meant to be used in any harmfull way. Actually I was going to addressed to evade antivirus (since your executable will be immediately detected by antivisurs) but decided not to do so (I might change my mind later).  It is meant to be a tool to be studied by white hackers and security specialists.**
+**I wrote this tool after taking several Ethical Hacking and security courses. So it is a tool I used to learn how these types of programs work. This tool is for educational purposes only and is not meant to be used in any harmfull way. Actually I was going to address antiviruses evation (since your executable will be immediately detected and deleted by any good antivirus) but I decided not to do so (I might change my mind later).  The point I am driving home here is that this tool is meant to be a tool to be studied by white hackers and security specialists.**
 
 # Description
-A python Remote keylogger that logs all keystrokes that have been typed by a user and sends a report to an email every specific amount of time. You can package it as an executable for MS Windows, Linux OSs, and Mac OS please refer to the section called packaging where I explain how to do that in detail. Enjoy!
+A python Remote keylogger that logs all keystrokes that have been typed by a user and then sends a report to an email every specific amount of time. You can package it as an executable for MS Windows, Linux OSs, and Mac OS. Please refer to the section called Packaging where I explain how to do that in detail. Enjoy!
 
 # Requirements
 You need to install pynput Python module. You can install it by pip or any other methods you are confortable with:
