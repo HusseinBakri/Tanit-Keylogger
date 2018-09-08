@@ -14,6 +14,8 @@ Tanit Keylogger is part of a toolset of Ethical Hacking tools that I will publis
 8. Baal Backdoor (Language: Python), repository URL (will be added later).
 9. Website Crawler (Language: Python), repository URL (will be added later).
 10. Vulnerability Scanner (Language: Python), repository URL (will be added later).
+11. Passwords Harvester (Language: Python & JavaScript), repository URL (will be added later).
+12. Code Injector (Language: Python & JavaScript), repository URL (will be added later).
 
 
 # Code of Conduct
