@@ -1,18 +1,19 @@
 # PythonKeylogger
 Tanit Keylogger is a simple but powerfull remote python keylogger for MS Windows, Mac OS and Linux OSs. The tool is named after the Phoenician chief goddess of Carthage. The tool sends you a report to your email every specific amount of time. Please change these parameters in main.py.
 
-The tool is an Ethical Hacker Educational tool ONLY  (please code of conduct). 
+The tool is part of an Ethical Hacker Educational toolset taught normally in ethical hacking degrees (please see code of conduct). 
 
-It is part of a series of Ethical Hacking tools I will publish on Github:
-1. Adonis ARP Spoofer (Language Python), repository URL (will be added later).
-2. Simple MAC Changer (Language Python), repository URL (will be added later).
-3. Anat Network Scanner (Language Python), repository URL (will be added later).
-4. Hadad Keylogger (Language Python), repository URL (will be added later).
-5. Shahar DNS Spoofer (Language Python), repository URL (will be added later).
-6. Sweet Death Virus (Language Python), repository URL (will be added later).
-7. Baal Backdoor (Language Python), repository URL (will be added later).
-8. Sanctum Website Crawler (Language Python), repository URL (will be added later).
-9. Tanit Keylogger (Language Python) - current repository.
+Tanit Keylogger is part of a toolset of Ethical Hacking tools that I will publish gradually on Github.
+1. Tanit Keylogger (Language: Python) - current repository. 
+2.Adonis ARP Spoofer (Language: Python), repository URL (will be added later).
+3. Simple MAC Changer (Language: Python), repository URL (will be added later).
+4. Anat Network Scanner (Language: Python), repository URL (will be added later).
+5. Hadad Keylogger (Language: Python), repository URL (will be added later).
+6. Shahar DNS Spoofer (Language: Python), repository URL (will be added later).
+7. Sweet Death Virus (Language: Python), repository URL (will be added later).
+8. Baal Backdoor (Language: Python), repository URL (will be added later).
+9. Website Crawler (Language: Python), repository URL (will be added later).
+10. Vulnerability Scanner (Language: Python), repository URL (will be added later).
 
 
 # Code of Conduct
