@@ -4,8 +4,8 @@ Tanit Keylogger is a simple but powerfull remote python keylogger for MS Windows
 The tool is part of an Ethical Hacker Educational toolset taught normally in ethical hacking and computer security degrees (please see code of conduct). 
 
 Tanit Keylogger is part of a toolset of Ethical Hacking tools that I will publish gradually on Github.
-1. Tanit Keylogger (Language: Python) - current repository. 
-2.Adonis ARP Spoofer (Language: Python), repository URL (will be added later).
+1. Tanit Keylogger (Language: Python) - current repository.
+2. Adonis ARP Spoofer (Language: Python), repository URL (will be added later).
 3. Simple MAC Changer (Language: Python), repository URL (will be added later).
 4. Anat Network Scanner (Language: Python), repository URL (will be added later).
 5. Hadad Keylogger (Language: Python), repository URL (will be added later).
