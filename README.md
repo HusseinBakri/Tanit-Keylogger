@@ -16,7 +16,7 @@ It is part of a series of Ethical Hacking tools I will publish on Github:
 
 
 # Code of Conduct
-**I wrote this tool after taking several Ethical Hacking and security courses. So it is a tool I used to learn how these types of programs work. This tool is for educational purposes only and is not meant to be used in any harmfull way. Actually I was going to address antiviruses evation (since your executable will be immediately detected and deleted by any good antivirus) but I decided not to do so (I might change my mind later).  The point I am driving home here is that this tool is meant to be a tool to be studied by white hackers and security specialists.**
+**I wrote this tool after taking several Ethical Hacking and security courses. So it is a tool written to teach how keyloggers work and it really shows how much it is simple to write an effective keylogger in Python. This tool is for educational purposes only and is not meant to be used in any harmfull way. Actually I was going to address antiviruses evation in a seperate section in the documentation (since your executable will be immediately detected and deleted by any good antivirus) but I decided not to do so (I might change my mind later).  The point I am driving home here is that this tool is meant to be a tool to be studied by white hackers and security specialists not to be deployed againt victims.**
 
 # Description
 A python Remote keylogger that logs all keystrokes that have been typed by a user and then sends a report to an email every specific amount of time. You can package it as an executable for MS Windows, Linux OSs, and Mac OS. Please refer to the section called Packaging where I explain how to do that in detail. Enjoy!
