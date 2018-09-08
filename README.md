@@ -1,7 +1,7 @@
 # PythonKeylogger
 Tanit Keylogger is a simple but powerfull remote python keylogger for MS Windows, Mac OS and Linux OSs. The tool is named after the Phoenician chief goddess of Carthage. The tool sends you a report to your email every specific amount of time. Please change these parameters in main.py.
 
-The tool is part of an Ethical Hacker Educational toolset taught normally in ethical hacking degrees (please see code of conduct). 
+The tool is part of an Ethical Hacker Educational toolset taught normally in ethical hacking and computer security degrees (please see code of conduct). 
 
 Tanit Keylogger is part of a toolset of Ethical Hacking tools that I will publish gradually on Github.
 1. Tanit Keylogger (Language: Python) - current repository. 
