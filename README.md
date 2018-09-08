@@ -1,5 +1,5 @@
 # PythonKeylogger
-Tanit Keylogger is a simple but powerfull python keylogger for MS Windows, Mac OS and Linux OSs. The tool is named after the Phoenician chief goddess of Carthage. 
+Tanit Keylogger is a simple but powerfull remote python keylogger for MS Windows, Mac OS and Linux OSs. The tool is named after the Phoenician chief goddess of Carthage. The tool sends you a report to your email every specific amount of time. Please change these parameters in main.py.
 
 The tool is an Ethical Hacker Educational tool ONLY  (please code of conduct). 
 
@@ -30,8 +30,7 @@ pip install pynput
 # Usage 
 python keylogger.py  or better for deployment: you need to package the source code as executables for target OS (please see packaging)
 
-# Examples 
-...
+Please change the time interval and email to suit your needs in main.py
 
 # Packaging
 You need the pyinstaller. You can install it via pip or pip3 or via apt vel cetera
