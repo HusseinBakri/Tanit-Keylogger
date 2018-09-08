@@ -22,15 +22,19 @@ It is part of a series of Ethical Hacking tools I will publish on Github:
 A python Remote keylogger that logs all keystrokes that have been typed by a user and then sends a report to an email every specific amount of time. You can package it as an executable for MS Windows, Linux OSs, and Mac OS. Please refer to the section called Packaging where I explain how to do that in detail. Enjoy!
 
 # Requirements
-You need to install pynput Python module. You can install it by pip or any other methods you are confortable with:
+You need to install pynput Python module. You can install it by pip or any other method you are confortable with:
 ```
 pip install pynput
 ```
 
 # Usage 
-python keylogger.py  or better for deployment: you need to package the source code as executables for target OS (please see packaging)
+## Irrealistic usage (educational)
 
-Please change the time interval and email to suit your needs in main.py
+```
+python main.py 
+```
+## Deployment Usage
+You need to package the source code as executable for your target Operating System (please see packaging). Please change the time interval and email to suit your needs in main.py. Black hackers normally use trojan horse techniques to masquerade the tool as a legitimate application so that the user will not be suspicious and would click to the run the application which could look like a PDF or image or anything really.
 
 # Packaging
 You need the pyinstaller. You can install it via pip or pip3 or via apt vel cetera
