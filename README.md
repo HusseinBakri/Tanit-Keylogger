@@ -1,4 +1,4 @@
-# PythonKeylogger
+# Tanit Python Keylogger
 Tanit Keylogger is a simple but powerfull remote python keylogger for MS Windows, Mac OS and Linux OSs. The tool is named after the Phoenician chief goddess of Carthage. The tool sends you a report to your email every specific amount of time. Please change these parameters in main.py.
 
 The tool is part of an Ethical Hacker Educational toolset taught normally in ethical hacking and computer security degrees (please see code of conduct). 
@@ -133,7 +133,7 @@ Some Binaries/executable tricks
 1. Changing the Binaries and adding padding (this require knowledge in reverse enginneering and changing hex codes). Same things you did in source code but on the level of the executable itself.
 2. An easier way: Compressing the binaries executables (like the .exe) via tools like UPX (https://github.com/upx/upx), a tool that compresses exe.
 
-Run your exe to some tools and online services that scan your tool across different antiviruses (famous and not famous) WITHOUT submitting the results to antiviruses. One service is called NoDistribute (https://nodistribute.com/). 
+Scan your exe via some tools and online services that scan your tool across different antiviruses (famous and non famous) WITHOUT submitting the results to antiviruses. One service that is quite handy is called NoDistribute (https://nodistribute.com/). 
 
 # License
 This program is licensed under GNU GPL v3 License - you are free to distribute, change, enhance and include any of the code of this application in your tools. I only expect adequate attribution of this work. The attribution should include the title of the program, the author and the site or the document where the program is taken from.
