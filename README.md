@@ -1,6 +1,7 @@
 # PythonKeylogger
 Tanit Keylogger is a python keylogger for Windows, Mac OS and Linux OSs called Tanit named the Phoenician chief goddess of Carthage. 
-**The tool is an Ethical Hacker Educational tool ONLY  (please see disclaimer and code of conduct). 
+
+*The tool is an Ethical Hacker Educational tool ONLY  (please see disclaimer and code of conduct). 
 
 It is part of a series of Ethical Hacking tools I will publish on Github:
 1. Adonis ARP Spoofer (Language Python), repository URL (will be added later).
