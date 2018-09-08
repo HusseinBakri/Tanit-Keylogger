@@ -34,7 +34,7 @@ pip install pynput
 python main.py 
 ```
 ## Deployment Usage
-You need to package the source code as executable for your target Operating System (please see packaging). Please change the time interval and email to suit your needs in main.py. Black hackers normally use trojan horse techniques to masquerade the tool as a legitimate application so that the user will not be suspicious and would click to the run the application which could look like a PDF or image or anything really.
+You need to package the source code as executable for your target Operating System (please see packaging). Please change the time interval and email to suit your needs in main.py. Black hackers normally use trojan horse techniques to masquerade the tool as a legitimate application so that the user will not be suspicious and would click on the file to run the application which could look like a PDF or image or anything really.
 
 # Packaging
 You need the pyinstaller. You can install it via pip or pip3 or via apt vel cetera
