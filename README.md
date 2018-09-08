@@ -107,7 +107,7 @@ wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe main.py --onefile --no
 ```
 # Enhancements
 ## Adding the program to registry
-One enhancement is to make the program copy itself to a location not suspicious with a new name and add itself to the registry (on MS Windows - very easy) or to the init deamon configuration files (very tricky)
+One enhancement is to make the program copy itself to a location not suspicious with a new name and add itself to the registry (on MS Windows - very easy) or to the init deamon configuration files on Linux OSs (very tricky)
 
 ## Masquerading the file as legitimate (Trojan Horse Techniques)
 Packaging the keylogger with an image or PDF. 
