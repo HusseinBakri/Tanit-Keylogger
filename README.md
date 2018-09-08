@@ -19,7 +19,7 @@ Tanit Keylogger is part of a toolset of Ethical Hacking tools that I will publis
 
 
 # Code of Conduct
-**This tool is written after taking several Ethical Hacking and Security courses. So in other words, it is a tool written to teach you how keyloggers work and it really shows you how much it is easy to write an effective and powerfull keylogger in Python. This tool is for educational purposes only and it is not meant to be used in any harmfull way. Actually I was going to address antiviruses evation in a seperate section in the documentation (since your executable will be immediately detected and deleted by any good antivirus on the market) but I decided not to do so (I might change my mind later). The point I am driving home here is the fact that this tool is meant to be a tool to be studied by white hat hackers and security specialists and is not meant to be deployed against victims.**
+**This tool is written after taking several Ethical Hacking and Security courses. So in other words, the code (which the generated executable is intentionally detectable by antiviruses) can be found in a form or another in ethical hacking books and courses. I have added enhancements of course. To reiterate: This is a tool written in the sole purpose of teaching you how remote and local keyloggers work and it really shows you how much it is easy to write an simple effective and yet powerfull keylogger in Python. This tool is for educational purposes only and it is not meant to be used in any harmfull way. Actually I was going to address antiviruses evation in a seperate section in the documentation (since your executable will be immediately detected and deleted by any good antivirus on the market) but I decided not to do so (I might change my mind later). The point I am driving home here is the fact that this tool is meant to be a tool to be studied by white hat hackers and security specialists and is not meant to be deployed against victims.**
 
 # Description
 A python Remote keylogger that logs all keystrokes that have been typed by a user and then sends a report to an email every specific amount of time. You can package it as an executable for MS Windows, Linux OSs, and Mac OS. Please refer to the section called Packaging where I explain how to do that in detail. Enjoy!
@@ -105,6 +105,31 @@ You can then package Tanit Keylogger into a single executable:
 ```
 wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe main.py --onefile --noconsole
 ```
+# Enhancements
+## Adding the program to registry
+One enhancement is to make the program copy itself to a location not suspicious with a new name and add itself to the registry (on MS Windows - very easy) or to the init deamon configuration files (very tricky)
+
+## Masquerading the file as legitimate (Trojan Horse Techniques)
+Packaging the keylogger with an image or PDF. 
+Changing the icon and spoofing the extension of the file. I will write a guide on how to do that soon.
+
+## Avoiding antiviruses
+I have to mention the fact that the mere act of writing your own Hacking/Security programs with your own way of coding makes these programs unique in a way and thus undetectable and you will know why when I explain the main techniques used by antiviruses. Source Codes and by consequence executable binaries generated out of them, are always detected when they are either too traditional or have been used by many people. Per instance, the code here has great parts from many sources (a salad of code) and that is intentional actually.
+Now the tricks here are really a race with time for different reasons:
+- 1st technique: Anti-viruses compares your program to a huge database of signatures of other malware. By huge I mean massive. In lay terms, huge number of signatures (i.e. snippets of logic if you want) sort of database of malware logic.
+- 2nd technique: This technique is used in tandem with the first and works as a safe guard if signature is not found. It compares the behaviour of your program in real-time using a sandbox or virtual environment. The comparision involves sometimes some clever machine and deep learning algorithms. Now of course every antivirus give this technique some sort of a brand and fancy name but it boils down to the same concepts. The techniques are numerous, the antivisus try to figure out if  your program is opening supeciously a port or downloading things or taking snapshots or capturing keystrokes, connecting to remote hosts vel cetera...
+
+You sould be worried about the second point not the first one becuase you have literally a trillion methods to make your program quite unique to fool an antivirus to think it is harmless and thus no signature would be matched. That does not mean the second technique could not be defeated.
+
+Some Source Code tricks (the following is a big field and art in itself):
+1. Add useless code before, in-between (if possible) and after the malicious code. Add a lot of padding logic (useless loops, useless mathematical operations etc...)
+2. Play with sleep patterns of your Python scripts (pausing the program and resuming it, then pausing and resuming)
+3. Play with program threading like spawning threads especially useless ones per example some weird mathematical equation calculation is in a seperate thread (I found this achieves amazing results)
+4. Add variables that are gibberish. There are some tools that transform all your variables to shorter names. These types of tools are called obfuscation tools that fool and confuse both humans and antiviruses. Black and grey Hackers usually change the code of the program to the point that the padding or usefull behaviour should be far more sizable in your tool than the actual malicous code which should be scattered in different places.
+...
+
+Some Binaries/executable tricks
+....
 
 # License
 This program is licensed under GNU GPL v3 License - you are free to distribute, change, enhance and include any of the code of this application in your tools. I only expect adequate attribution of this work. The attribution should include the title of the program, the author and the site or the document where the program is taken from.
