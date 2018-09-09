@@ -122,7 +122,7 @@ pyinstaller main.py --onefile --noconsole
 The binary will be stored in the dist folder.
 
 ## Creating a Linux OS executable of Tanit
-The process is exactly similar. The good thing in Linux is that binaries in Linux don't get executed by just making the user double click them, they need to be run from the terminal. 
+The process is exactly similar. The good thing in Linux is that binaries in Linux don't get executed by just making the user double click them, they need to be run from the terminal after chmod +x make them executable. This is why Linux rocks! 
 
 # Enhancements
 ## Adding the program to registry
