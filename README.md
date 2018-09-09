@@ -108,7 +108,7 @@ wine /root/.wine/drive_c/Python27/Scripts/pyinstaller.exe main.py --onefile --no
 The binary will be stored in the dist folder.
 
 ## Creating a Mac OS executable of Tanit
-It is the same procedure using pyinstaller. First install pyinstaller through latest pip - with sudo privileges. NB: it is better to get the latest pip so to avoid errors. 
+If you are on a Mac OS, the process is the same for installing pyinstaller. First install pyinstaller through latest pip - with sudo privileges. NB: it is better to get the latest pip so to avoid errors. 
 
 ```
 sudo pip install pyinstaller
