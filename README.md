@@ -84,7 +84,7 @@ result = subprocess.check_output(command, shell=True, stderr=DEVNULL, stdin=DEVN
 ```
 
 ## Create a Windows .exe executable out of a python project from a Linux OS
-As you know to run a Windows .exe or .msi or anything similar on a Linux OS (even on Mac OS) you need a lovely program called  [wine](https://www.winehq.org/){:target="_blank"}. I would assume you have installed wine on Linux. Go to the official Python Website and download the right Python 2.7.x msi installation file. Navigate on your Linux to the directory of the download directory of this file and then run the following command: (/i is for installing):
+As you know to run a Windows .exe or .msi or anything similar on a Linux OS (even on Mac OS) you need a lovely program called  [wine](https://www.winehq.org/){target="_blank"}. I would assume you have installed wine on Linux. Go to the official Python Website and download the right Python 2.7.x msi installation file. Navigate on your Linux to the directory of the download directory of this file and then run the following command: (/i is for installing):
 ```
 wine msiexec /i python-2.7.14.msi
 ```
