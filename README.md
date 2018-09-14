@@ -8,14 +8,11 @@ Tanit Keylogger is part of a toolset of Ethical Hacking tools that I will publis
 2. Adonis ARP Spoofer (Language: Python), repository URL (will be added later).
 3. Simple MAC Changer (Language: Python), repository URL (will be added later).
 4. Anat Network Scanner (Language: Python), repository URL (will be added later).
-5. Hadad Keylogger (Language: Python), repository URL (will be added later).
+5. Hadad Packet Sniffer (Language: Python), repository URL (will be added later).
 6. Shahar DNS Spoofer (Language: Python), repository URL (will be added later).
 7. Sweet Death Virus (Language: Python), repository URL (will be added later).
 8. Baal Backdoor (Language: Python), repository URL (will be added later).
-9. Website Crawler (Language: Python), repository URL (will be added later).
-10. Vulnerability Scanner (Language: Python), repository URL (will be added later).
-11. Passwords Harvester (Language: Python & JavaScript), repository URL (will be added later).
-12. Code Injector (Language: Python & JavaScript), repository URL (will be added later).
+9. Vulnerability Scanner (Language: Python), repository URL (will be added later).
 
 
 # Code of Conduct
