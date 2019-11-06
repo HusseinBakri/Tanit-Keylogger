@@ -151,9 +151,31 @@ Some Binaries/executable tricks:
 1. Changing the Binaries and adding padding (this require knowledge in reverse enginneering and changing hex codes). Same things you did in the source code but this time on the level of the executable itself.
 2. An easier way: Compressing the binaries or executables (like compressing the .exe) via tools like UPX (https://github.com/upx/upx), a tool that compresses exe files.
 
-Scan your exe via tools and online services that scan your tool across different antiviruses (famous and non famous) WITHOUT submitting the results to antiviruses. One service that is quite handy is called NoDistribute (https://nodistribute.com/).
+Scan your .exe via tools and online services that scan your tool across different antiviruses (famous and non famous) **WITHOUT** submitting the results to antiviruses. One service that is quite handy is called NoDistribute (https://nodistribute.com/).
 
 Please after you are successfull in running your hacking tool evading antiviruses, you are bound by an ethical code of conduct, so you are required morally and legally to submit your tool and code to antiviruses databases.
+
+### Sending to the victim a backdoor that is undetectable by antiviruses
+
+Tanit keylogger or any other tool can be run on the victim remotely by using a backdoor. You can use an awesome tool called the Veil Framework (https://github.com/Veil-Framework/Veil). Veil generates completely undetectable backdoors to hack into computers
+
+You need a Linux preferably a Kali Linux to create the backdoor. Veil requires a lot of libraries and packages to be installed. To install Veil on Linux, you need to clone the **latest** GitHub repo and from the terminal you need to cd into the config directory in the repo. There is a setup.sh script that will install all the libraries needed for the Veil Framework to work properly. Run the setup file. You can of course use the --silent switch to allow the framework to install in silent mode using the default settings. You can also use the --force switch which will overwrite any existing installation of Veil in case you were obliged to install the libraries and the framework again for whatever reason.
+
+```./setup.sh --silent --force```
+
+Veil is a python file that is executable. You can run from the terminal
+
+```./Veil.py```
+
+Make sure that you **always update Veil since your aim to evade anti-viruses**. You can update Veil from inside the framework when executed.
+
+Veil bypasses anti-viruses by encrypting, obfuscating and padding malicious code. In the different backdoor payloads that you have, you  can set the reverse IP/PORT which would be the IP of the attacker. One or two antiviruses might still detect Veil. To bypass this, I strongly advice you to play around with the options of each payload until you get something completely different and thus completely undetectable. It is advisable to try different values for the options of the payload such as the Number of processors, and the sleep in seconds to achieve a perfect result. 
+
+The beauty of Veil is that it generates an .exe completely undetectable if you can figure out the right otions to make your backdoor quite unique from signature-wise perspective. It also generates a source code file of the backdoor depending on the payload language that you have chosen: go, python, lua, C, C# etc…. 
+
+Scan your .exe via tools and online services that scan your tool across different antiviruses (famous and non famous) **WITHOUT** submitting the results to antiviruses. One service that is quite handy is called NoDistribute (https://nodistribute.com/).
+
+Please after you are successfull in running your hacking tool which evaded antiviruses, you are bound by an ethical code of conduct, so you are required morally and legally to submit your tool and code to antiviruses databases.
 
 # License
 This program is licensed under MIT License - you are free to distribute, change, enhance and include any of the code of this application in your tools. I only expect adequate attribution and citation of this work. The attribution should include the title of the program, the author (me!) and the site or the document where the program is taken from.
