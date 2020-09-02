@@ -56,6 +56,7 @@ pip install pyinstaller
 ```
 
 A program called pyinstaller is installed in the Python directory. On Windows, it would be an executable: pyinstaller.exe
+***NB: Some folks have thankfully reported that pyinstaller is causing annoying problems when packaging the python files into exe. So if this is what is happening with you, kindly check other tools that package into exe such as py2exe or Auto-py-to-exe or any other suitable tool. Please try first your keylogger in Python and please check that this is the exact behaviour that you are looking for before packaging the tool.***
 
 ## Notez Bien - Antivirus won't be happy!!!
 
