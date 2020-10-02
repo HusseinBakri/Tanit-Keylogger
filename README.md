@@ -26,6 +26,7 @@ You need to install pynput Python module. You can install it by pip or any other
 ```
 pip install pynput
 ```
+***NB: Bare in mind that you need to enable less secure apps to access your email account in order for the Tanit scripts or executables to send you emails. Please check how to do that in the documentation of your particular email provider.***
 
 # Usage 
 ## Irrealistic usage (educational)
